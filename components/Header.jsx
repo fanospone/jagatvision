@@ -4,40 +4,35 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header style={styles.header}>
-      <div style={styles.logo}>
-        <span className="icon">📹</span>
+    <header className="w-full bg-[#E6ECF5] px-16 py-5 flex justify-between items-center">
+      
+      {/* Logo */}
+      <div className="flex items-center gap-3">
+        <span className="text-2xl">📹</span>
         <div>
-          <h1>JAGATVISION CCTV</h1>
-          <small>store.</small>
+          <h1 className="text-lg font-bold tracking-wide text-black">
+            JAGATVISION CCTV
+          </h1>
+          <p className="text-xs text-gray-500">store.</p>
         </div>
       </div>
 
-      <nav style={styles.nav}>
-        <Link href="/">Home</Link>
-        <Link href="/paketcctv">Paket CCTV</Link>
-        <Link href="/paketakseskontrol">Paket Akses Kontrol</Link>
-        <Link href="/tentangkami">Tentang Kami</Link>
+      {/* Navigation */}
+      <nav className="flex gap-10 text-sm font-medium text-gray-700">
+        <Link href="/" className="hover:text-blue-600 transition">
+          Home
+        </Link>
+        <Link href="/paket-cctv" className="hover:text-blue-600 transition">
+          Paket CCTV
+        </Link>
+        <Link href="/akses-kontrol" className="hover:text-blue-600 transition">
+          Paket Akses Kontrol
+        </Link>
+        <Link href="/tentang" className="hover:text-blue-600 transition">
+          Tentang Kami
+        </Link>
       </nav>
+
     </header>
   );
 }
-
-const styles = {
-  header: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "16px 40px",
-    backgroundColor: "#111",
-    color: "#fff",
-  },
-  logo: {
-    fontSize: "20px",
-    fontWeight: "bold",
-  },
-  nav: {
-    display: "flex",
-    gap: "20px",
-  },
-};
