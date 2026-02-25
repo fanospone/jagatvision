@@ -1,11 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import { JSX } from "react";
 
-export default function Header() {
+export default function Header(): JSX.Element {
   return (
     <header className="w-full bg-[#E6ECF5] px-16 py-5 flex justify-between items-center">
-      
+
       {/* Logo */}
       <div className="flex items-center gap-3">
         <span className="text-2xl">📹</span>
@@ -19,18 +20,35 @@ export default function Header() {
 
       {/* Navigation */}
       <nav className="flex gap-10 text-sm font-medium text-gray-700">
-        <Link href="/" className="hover:text-blue-600 transition">
+
+        <Link 
+          href="/" 
+          className="hover:text-blue-600 transition-colors duration-200"
+        >
           Home
         </Link>
-        <Link href="/paket-cctv" className="hover:text-blue-600 transition">
+
+        <Link 
+          href="/paketcctv" 
+          className="hover:text-blue-600 transition-colors duration-200"
+        >
           Paket CCTV
         </Link>
-        <Link href="/akses-kontrol" className="hover:text-blue-600 transition">
+
+        <Link 
+          href="/paketakseskontrol" 
+          className="hover:text-blue-600 transition-colors duration-200"
+        >
           Paket Akses Kontrol
         </Link>
-        <Link href="/tentang" className="hover:text-blue-600 transition">
+
+        <Link 
+          href="/tentang" 
+          className="hover:text-blue-600 transition-colors duration-200"
+        >
           Tentang Kami
         </Link>
+
       </nav>
 
     </header>

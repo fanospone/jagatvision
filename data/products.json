@@ -1,0 +1,71 @@
+{
+  "hikvision": {
+    "basic": [
+      {
+        "id": 1,
+        "name": "Hikvision 1 Channel Basic",
+        "price": 3599000,
+        "picture": "/images/products/hikvision/basic-1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Hikvision 2 Channel Basic",
+        "price": 4599000,
+        "picture": "/images/products/hikvision/basic-2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Hikvision 3 Channel Basic",
+        "price": 1142345,
+        "picture": "/images/products/hikvision/basic-3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Hikvision 4 Channel Basic",
+        "price": 6444332,
+        "picture": "/images/products/hikvision/basic-4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Hikvision 5 Channel Basic",
+        "price": 6222332,
+        "picture": "/images/products/hikvision/basic-5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Hikvision 6 Channel Basic",
+        "price": 8545322,
+        "picture": "/images/products/hikvision/basic-6.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Hikvision 7 Channel Basic",
+        "price": 7834343,
+        "picture": "/images/products/hikvision/basic-7.jpg"
+      }
+    ],
+    "audio": [
+      {
+        "id": 1,
+        "name": "Hikvision 2 Channel Audio",
+        "price": 4999000,
+        "picture": "/images/products/hikvision/audio-1.jpg"
+      }
+    ],
+    "full-color": [],
+    "ip-camera": []
+  },
+
+  "hilook": {
+    "basic": [
+      {
+        "id": 1,
+        "name": "Hilook 2 Channel Basic",
+        "price": 2999000,
+        "picture": "/images/products/hilook/basic-1.jpg"
+      }
+    ],
+    "audio": [],
+    "full-color": []
+  }
+}

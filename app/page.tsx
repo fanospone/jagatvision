@@ -7,7 +7,6 @@ import UsagePanel from "@/components/UsagePanel";
 import AccessProducts from "@/components/AccessProducts";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Clients from "@/components/Clients";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,7 +20,6 @@ export default function Home() {
       <AccessProducts />
       <WhyChooseUs />
       <Clients/>
-      <Footer />
     </>
   );
 }
