@@ -36,7 +36,7 @@ export default function Services() {
             key={index}
             className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition"
           >
-            <div className="relative h-60">
+            <div className="relative w-full h-[600px]">
               <Image
                 src={service.image}
                 alt={service.title}

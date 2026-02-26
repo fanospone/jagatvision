@@ -3,45 +3,45 @@
     "basic": [
       {
         "id": 1,
-        "name": "Hikvision 1 Channel Basic",
+        "name": "Hikvision 2 Channel Basic",
         "price": 3599000,
-        "picture": "/images/products/hikvision/basic-1.jpg"
+        "picture": "/images/products/hikvision/hikvision_basic_2.png"
       },
       {
         "id": 2,
-        "name": "Hikvision 2 Channel Basic",
+        "name": "Hikvision 3 Channel Basic",
         "price": 4599000,
-        "picture": "/images/products/hikvision/basic-2.jpg"
+        "picture": "/images/products/hikvision/hikvision_basic_3.png"
       },
       {
         "id": 3,
-        "name": "Hikvision 3 Channel Basic",
+        "name": "Hikvision 4 Channel Basic",
         "price": 1142345,
-        "picture": "/images/products/hikvision/basic-3.jpg"
+        "picture": "/images/products/hikvision/hikvision_basic_4.png"
       },
       {
         "id": 4,
-        "name": "Hikvision 4 Channel Basic",
+        "name": "Hikvision 5 Channel Basic",
         "price": 6444332,
-        "picture": "/images/products/hikvision/basic-4.jpg"
+        "picture": "/images/products/hikvision/hikvision_basic_5.png"
       },
       {
         "id": 5,
-        "name": "Hikvision 5 Channel Basic",
+        "name": "Hikvision 6 Channel Basic",
         "price": 6222332,
-        "picture": "/images/products/hikvision/basic-5.jpg"
+        "picture": "/images/products/hikvision/hikvision_basic_6.png"
       },
       {
         "id": 6,
-        "name": "Hikvision 6 Channel Basic",
+        "name": "Hikvision 7 Channel Basic",
         "price": 8545322,
-        "picture": "/images/products/hikvision/basic-6.jpg"
+        "picture": "/images/products/hikvision/hikvision_basic_7.png"
       },
       {
         "id": 7,
-        "name": "Hikvision 7 Channel Basic",
+        "name": "Hikvision 8 Channel Basic",
         "price": 7834343,
-        "picture": "/images/products/hikvision/basic-7.jpg"
+        "picture": "/images/products/hikvision/hikvision_basic_8.png"
       }
     ],
     "audio": [

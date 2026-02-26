@@ -9,42 +9,79 @@ export default function UsagePanel() {
   ];
 
   return (
-    <section className="bg-[#E6ECF5] py-20 px-16">
-      <div className="grid md:grid-cols-5 gap-8 items-center">
-        
-        {/* LEFT TEXT */}
-        <div className="md:col-span-1">
-          <h2 className="text-2xl font-bold mb-4">
-            Dimana Menggunakan Smart CCTV
+<section className="w-full bg-[#c9d3e3] py-24">
+
+      <div className="max-w-7xl mx-auto px-8 flex gap-16">
+
+        {/* LEFT CONTENT */}
+        <div className="w-[30%]">
+
+          <h2 className="text-4xl font-bold text-gray-800 leading-snug mb-6">
+            Dimana <br />
+            Menggunakan <br />
+            Smart CCTV
           </h2>
-          <p className="text-gray-600 text-sm mb-6">
+
+          <p className="text-gray-600 mb-8 leading-relaxed text-sm">
             Pelanggan kami menggunakan produk yang mendukung Smart CCTV
-            untuk berbagai aplikasi perumahan dan bisnis.
+            untuk berbagai aplikasi perumahan dan bisnis. Pelanggan saat ini
+            menggunakan teknologi AcuSense untuk melindungi area dalam dan
+            luar ruangan di:
           </p>
 
-          <button className="border border-gray-400 px-5 py-2 text-sm hover:bg-gray-200 transition">
+          <button className="border border-gray-700 px-6 py-3 text-sm font-medium hover:bg-gray-800 hover:text-white transition">
             Explore More
           </button>
+
         </div>
 
-        {/* RIGHT CARDS */}
-        <div className="md:col-span-4 grid md:grid-cols-4 gap-6">
-          {items.map((item, index) => (
-            <div key={index} className="relative h-80 rounded-xl overflow-hidden shadow-lg">
+        {/* RIGHT IMAGE PANELS */}
+        <div className="flex gap-6 w-[70%]">
+
+          {[
+            { id: "01", title: "Rumah", img: "/usage1.jpg" },
+            { id: "02", title: "Pabrik", img: "/usage2.jpg" },
+            { id: "03", title: "Gudang", img: "/usage3.jpg" },
+            { id: "04", title: "Dan Lain lain", img: "/usage4.jpg" },
+          ].map((item) => (
+
+            <div
+              key={item.id}
+              className="relative group w-1/4 h-[500px] overflow-hidden"
+            >
+
+              {/* IMAGE */}
               <Image
-                src={item.image}
+                src={item.img}
                 alt={item.title}
                 fill
-                className="object-cover"
+                className="object-cover group-hover:scale-110 transition duration-700"
               />
-              <div className="absolute bottom-0 bg-black/50 text-white w-full p-4 font-semibold">
-                {item.title}
+
+              {/* TOP GRADIENT OVERLAY */}
+              <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/10 to-transparent" />
+
+              {/* TEXT OVERLAY */}
+              <div className="absolute top-6 left-6 text-white z-10">
+
+                <p className="text-xs tracking-wider mb-2 opacity-80">
+                  {item.id} — Indoor / Outdoor
+                </p>
+
+                <h3 className="text-xl font-bold">
+                  {item.title}
+                </h3>
+
               </div>
+
             </div>
+
           ))}
+
         </div>
 
       </div>
+
     </section>
-  );
+      );
 }
