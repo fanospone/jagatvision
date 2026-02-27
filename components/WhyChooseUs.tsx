@@ -2,34 +2,34 @@ export default function WhyChooseUs() {
   const leftItems = [
     {
       title: "Garansi Pemasangan 1 Bulan",
-      desc: "Kami memberikan garansi pemasangan selama 1 bulan untuk memastikan sistem berjalan dengan baik."
+      desc: "Dengan adanya garansi pemasangan 1 bulan, Anda dapat yakin bahwa pekerjaan pemasangan akan dilakukan dengan teliti dan profesional. Serta menunjukkan komitmen kami terhadap kepuasan pelanggan."
     },
     {
       title: "Gratis Biaya Pemasangan",
-      desc: "Harga paket CCTV sudah termasuk biaya pemasangan dengan teknisi profesional."
+      desc: "Harga paket CCTV yang kami tawarkan sudah termasuk dengan biaya jasa pemasangan dan setting online. Kami menjamin hasil pengerjaan yang rapih, aman, dan sesuai dengan sistem keamanan yang dibutuhkan oleh pelanggan"
     },
     {
       title: "Tim Marketing yang Responsif",
-      desc: "Tim kami siap membantu dan memberikan solusi terbaik sesuai kebutuhan Anda."
+      desc: "Kami menjaga kepercayaan pelanggan dengan pelayanan yang responsif. Dengan memberikan pelayanan yang responsif, pelanggan akan merasa dihargai dan diperhatikan."
     },
     {
       title: "Bantuan Teknis",
-      desc: "Kami menyediakan layanan bantuan teknis melalui remote atau onsite."
+      desc: "Tim dukungan kami tersedia untuk memberikan bantuan teknis melalui telepon atau email. Mereka akan membantu Anda menyelesaikan masalah atau pertanyaan yang Anda miliki terkait dengan pengoperasian sistem CCTV."
     },
   ];
 
   const rightItems = [
     {
       title: "Garansi Produk 1 Tahun",
-      desc: "Semua produk resmi bergaransi 1 tahun untuk menjamin kualitas dan keamanan investasi Anda."
+      desc: "Kami memberikan jaminan bahwa produk yang kami jual adalah original. Garansi yang kami berikan akan memberikan keamanan dan perlindungan kepada konsumen. Dengan garansi ini, konsumen dapat merasa tenang dan yakin bahwa mereka akan mendapatkan dukungan atau penggantian jika terjadi kerusakan atau masalah pada produk selama satu tahun setelah pembelian."
     },
     {
       title: "Free Maintenance",
-      desc: "Kami memberikan layanan maintenance berkala untuk menjaga performa sistem."
+      desc: "Pemasangan yang telah kami kerjaan tidak luput dari perhatian dan tanggung jawab kami. Kami memberikan 2 kali Free Maintenance diluar dari garansi apabila terjadi masalah atau kendala setelah pemasangan."
     },
     {
       title: "Perbaikan & Pemeliharaan",
-      desc: "Kami siap membantu perbaikan dan pemeliharaan jika terjadi kendala."
+      desc: "Tim teknisi kami siap membantu Anda dalam memperbaiki dan merawat sistem CCTV Anda jika terjadi masalah teknis atau kerusakan. Kami akan datang dengan cepat untuk memperbaiki masalah dan memastikan sistem kembali berfungsi dengan baik."
     },
   ];
 
@@ -43,8 +43,9 @@ export default function WhyChooseUs() {
           Kenapa Harus Pilih Kami ?
         </h2>
         <p className="text-blue-200 max-w-xl mt-4 text-sm">
-          Kami berkomitmen untuk memberikan layanan terbaik kepada pelanggan kami,
-          baik sebelum maupun setelah penjualan.
+          Kami berkomitmen untuk memberikan layanan terbaik kepada pelanggan kami, baik itu sebelum maupun setelah penjualan. 
+          Jika Anda memiliki pertanyaan lebih lanjut tentang layanan after sales atau garansi pemasangan kami, jangan ragu untuk menghubungi kami. 
+          Kami siap membantu Anda dengan segala kebutuhan keamanan Anda.
         </p>
       </div>
 
@@ -54,13 +55,13 @@ export default function WhyChooseUs() {
       </div>
 
       {/* CONTENT GRID */}
-      <div className="grid md:grid-cols-2 gap-16 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-2 gap-x-20 gap-y-20 max-w-6xl mx-auto">
         
-        {/* LEFT */}
-        <div className="space-y-12">
+        {/* LEFT COLUMN */}
+        <div className="space-y-40">
           {leftItems.map((item, index) => (
             <div key={index}>
-              <h3 className="font-semibold text-lg mb-2">
+              <h3 className="font-semibold text-lg mb-3">
                 {item.title}
               </h3>
               <p className="text-blue-200 text-sm leading-relaxed">
@@ -70,11 +71,11 @@ export default function WhyChooseUs() {
           ))}
         </div>
 
-        {/* RIGHT */}
-        <div className="space-y-12">
+        {/* RIGHT COLUMN (DITURUNKAN) */}
+        <div className="space-y-40 md:mt-32">
           {rightItems.map((item, index) => (
             <div key={index}>
-              <h3 className="font-semibold text-lg mb-2">
+              <h3 className="font-semibold text-lg mb-3">
                 {item.title}
               </h3>
               <p className="text-blue-200 text-sm leading-relaxed">

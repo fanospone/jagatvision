@@ -39,7 +39,7 @@ export default function Clients() {
       <div className="relative overflow-hidden whitespace-nowrap mb-10">
         <div className="flex animate-scroll-left gap-16">
           {[...logos, ...logos].map((logo, i) => (
-            <Image key={i} src={logo} alt="brand" width={120} height={60} />
+            <Image key={i} src={logo} alt="brand" width={0} height={0} sizes="100vw" className="h-16 w-auto object-contain"/>
           ))}
         </div>
       </div>
@@ -48,7 +48,7 @@ export default function Clients() {
       <div className="relative overflow-hidden whitespace-nowrap">
         <div className="flex animate-scroll-right gap-16">
           {[...logos2, ...logos2].map((logo, i) => (
-            <Image key={i} src={logo} alt="brand" width={120} height={60} />
+            <Image key={i} src={logo} alt="brand" width={0} height={0} sizes="100vw" className="h-16 w-auto object-contain"/>
           ))}
         </div>
       </div>

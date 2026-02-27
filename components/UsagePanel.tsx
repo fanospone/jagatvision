@@ -62,13 +62,13 @@ export default function UsagePanel() {
               <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/10 to-transparent" />
 
               {/* TEXT OVERLAY */}
-              <div className="absolute top-6 left-6 text-white z-10">
+              <div className="absolute top-0 left-0 w-full bg-[color-mix(in_oklab,_#ffffff78_80%,_transparent)] backdrop-blur-sm p-6 z-10">
 
-                <p className="text-xs tracking-wider mb-2 opacity-80">
+                <p className="text-xs tracking-wider mb-2 text-gray-600">
                   {item.id} — Indoor / Outdoor
                 </p>
 
-                <h3 className="text-xl font-bold">
+                <h3 className="text-2xl font-bold text-gray-800">
                   {item.title}
                 </h3>
 
