@@ -33,6 +33,8 @@ body {
   align-items: center;
   padding: 15px 60px;
   background: #e5e9f2;
+  position: sticky;
+  top: 0;
 }
 
 .logo {

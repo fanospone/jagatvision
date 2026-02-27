@@ -5,7 +5,7 @@ import { JSX } from "react";
 
 export default function Header(): JSX.Element {
   return (
-    <header className="w-full bg-[#E6ECF5] px-16 py-5 flex justify-between items-center">
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#E6ECF5] backdrop-blur-sm px-16 py-5 flex justify-between items-center shadow-md">
 
       {/* Logo */}
       <div className="flex items-center gap-3">
