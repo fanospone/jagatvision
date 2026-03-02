@@ -1,4 +1,5 @@
 import Image from "next/image";
+import RevealOnScroll from "./RevealOnScroll";
 
 export default function UsagePanel() {
   const items = [
@@ -10,6 +11,7 @@ export default function UsagePanel() {
 
   return (
 <section className="w-full bg-[#c9d3e3] py-24">
+  <RevealOnScroll>
 
       <div className="max-w-7xl mx-auto px-8 flex gap-16">
 
@@ -81,7 +83,7 @@ export default function UsagePanel() {
         </div>
 
       </div>
-
+</RevealOnScroll>
     </section>
       );
 }

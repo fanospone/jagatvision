@@ -1,4 +1,5 @@
 import Image from "next/image";
+import RevealOnScroll from "@/components/RevealOnScroll";
 
 export default function Services() {
   const services = [
@@ -26,38 +27,44 @@ export default function Services() {
 
   return (
     <section className="bg-gray-100 py-20 px-16">
-      <div className="text-center mb-12">
-        <h2 className="text-2xl font-bold">Layanan Kami</h2>
-        <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-          Dengan pengalaman bertahun-tahun dalam industri ini, kami menyediakan
-          layanan pemasangan yang profesional dan hasil yang memuaskan untuk menjaga aset Anda.
-        </p>
-      </div>
+      <RevealOnScroll>
+        <div className="text-center mb-12">
+          <h2 className="text-2xl font-bold">Layanan Kami</h2>
+          <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
+            Dengan pengalaman bertahun-tahun dalam industri ini, kami menyediakan
+            layanan pemasangan yang profesional dan hasil yang memuaskan untuk menjaga aset Anda.
+          </p>
+        </div>
 
-      <div className="grid md:grid-cols-4 gap-8">
-        {services.map((service, index) => (
-          <div key={index} className="group relative bg-white rounded-xl overflow-hidden shadow  overflow-hidden duration-300 hover:shadow-lg transition"          >
-            <div className="relative">
-              <div className="relative w-full h-[600px]">
-                <Image
-                  src={service.image}
-                  alt={service.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-4 text-center font-medium">
-                {service.title}
-              </div>
-          </div>
-          <div className="absolute inset-0 bg-blue-900/60 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-start p-4 rounded-xl">
-            <p className="text-white text-sm">
-              {service.desc}
-            </p>
-          </div>
-          </div>
-        ))}
-      </div>
+        <div className="grid md:grid-cols-4 gap-8">
+          {services.map((service, index) => (
+            
+              
+            <div key={index} className="group relative bg-white rounded-xl overflow-hidden shadow  overflow-hidden duration-300 hover:shadow-lg transition"          >
+              <div className="relative">
+                <div className="relative w-full h-[600px]">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-4 text-center font-medium">
+                  {service.title}
+                </div>
+            </div>
+            <div className="absolute inset-0 bg-blue-900/60 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-start p-4 rounded-xl">
+              <p className="text-white text-sm">
+                {service.desc}
+              </p>
+            </div>
+            </div>
+            
+            
+          ))}
+        </div>
+      </RevealOnScroll>
     </section>
   );
 }
