@@ -1,71 +1,146 @@
 {
-  "hikvision": {
-    "basic": [
-      {
-        "id": 1,
-        "name": "Hikvision 2 Channel Basic",
-        "price": 3599000,
-        "picture": "/images/products/hikvision/hikvision_basic_2.png"
-      },
-      {
-        "id": 2,
-        "name": "Hikvision 3 Channel Basic",
-        "price": 4599000,
-        "picture": "/images/products/hikvision/hikvision_basic_3.png"
-      },
-      {
-        "id": 3,
-        "name": "Hikvision 4 Channel Basic",
-        "price": 1142345,
-        "picture": "/images/products/hikvision/hikvision_basic_4.png"
-      },
-      {
-        "id": 4,
-        "name": "Hikvision 5 Channel Basic",
-        "price": 6444332,
-        "picture": "/images/products/hikvision/hikvision_basic_5.png"
-      },
-      {
-        "id": 5,
-        "name": "Hikvision 6 Channel Basic",
-        "price": 6222332,
-        "picture": "/images/products/hikvision/hikvision_basic_6.png"
-      },
-      {
-        "id": 6,
-        "name": "Hikvision 7 Channel Basic",
-        "price": 8545322,
-        "picture": "/images/products/hikvision/hikvision_basic_7.png"
-      },
-      {
-        "id": 7,
-        "name": "Hikvision 8 Channel Basic",
-        "price": 7834343,
-        "picture": "/images/products/hikvision/hikvision_basic_8.png"
-      }
-    ],
-    "audio": [
-      {
-        "id": 1,
-        "name": "Hikvision 2 Channel Audio",
-        "price": 4999000,
-        "picture": "/images/products/hikvision/audio-1.jpg"
-      }
-    ],
-    "full-color": [],
-    "ip-camera": []
-  },
+    "hikvision": {
+        "logo": "/images/products/hikvision.png",
+        "basic": [
+            {
+                "id": 1,
+                "name": "Hikvision 2 Channel Basic",
+                "price": 3599000,
+                "picture": "/images/products/hikvision/hikvision_basic_2.png"
+            }, {
+                "id": 2,
+                "name": "Hikvision 3 Channel Basic",
+                "price": 4599000,
+                "picture": "/images/products/hikvision/hikvision_basic_3.png"
+            }, {
+                "id": 3,
+                "name": "Hikvision 4 Channel Basic",
+                "price": 1142345,
+                "picture": "/images/products/hikvision/hikvision_basic_4.png"
+            }, {
+                "id": 4,
+                "name": "Hikvision 5 Channel Basic",
+                "price": 6444332,
+                "picture": "/images/products/hikvision/hikvision_basic_5.png"
+            }, {
+                "id": 5,
+                "name": "Hikvision 6 Channel Basic",
+                "price": 6222332,
+                "picture": "/images/products/hikvision/hikvision_basic_6.png"
+            }, {
+                "id": 6,
+                "name": "Hikvision 7 Channel Basic",
+                "price": 8545322,
+                "picture": "/images/products/hikvision/hikvision_basic_7.png"
+            }, {
+                "id": 7,
+                "name": "Hikvision 8 Channel Basic",
+                "price": 7834343,
+                "picture": "/images/products/hikvision/hikvision_basic_8.png"
+            }
+        ],
+        "audio": [
+            {
+                "id": 1,
+                "name": "Hikvision 2 Channel Audio",
+                "price": 4999000,
+                "picture": "/images/products/hikvision/audio-1.jpg"
+            }
+        ],
+        "full-color": [],
+        "ip-camera": []
+    },
 
-  "hilook": {
-    "basic": [
-      {
-        "id": 1,
-        "name": "Hilook 2 Channel Basic",
-        "price": 2999000,
-        "picture": "/images/products/hilook/basic-1.jpg"
-      }
-    ],
-    "audio": [],
-    "full-color": []
-  }
+    "hilook": {
+        "logo": "/images/products/hilook.png",
+        "basic": [
+            {
+                "id": 1,
+                "name": "Hilook 2 Channel Basic",
+                "price": 2999000,
+                "picture": "/images/products/hilook/basic-1.png"
+            }
+        ],
+        "audio": [],
+        "full-color": []
+    },
+
+    "dahua": {
+        "logo": "/images/products/dahua.png",
+        "basic": [
+            {
+                "id": 1,
+                "name": "Dahua 2 Channel Basic",
+                "price": 1999000,
+                "picture": "/images/products/dahua/basic-1.png"
+            }
+        ],
+        "audio": [],
+        "full-color": []
+    },
+    "ezviz": {
+        "logo": "/images/products/ezviz.png",
+        "basic": [
+            {
+                "id": 1,
+                "name": "Ezviz 2 Channel Basic",
+                "price": 3999000,
+                "picture": "/images/products/ezviz/basic-1.png"
+            }
+        ],
+        "audio": [],
+        "full-color": []
+    },
+    "imou": {
+        "logo": "/images/products/imou.png",
+        "basic": [
+            {
+                "id": 1,
+                "name": "Imou 2 Channel Basic",
+                "price": 2999000,
+                "picture": "/images/products/imou/basic-1.png"
+            }
+        ],
+        "audio": [],
+        "full-color": []
+    },
+    "uniarch": {
+        "logo": "/images/products/uniarch.png",
+        "basic": [
+            {
+                "id": 1,
+                "name": "Uniarch 2 Channel Basic",
+                "price": 2499000,
+                "picture": "/images/products/uniarch/basic-1.png"
+            }
+        ],
+        "audio": [],
+        "full-color": []
+    },
+    "uniview": {
+        "logo": "/images/products/uniview.png",
+        "basic": [
+            {
+                "id": 1,
+                "name": "Uniview 2 Channel Basic",
+                "price": 3499000,
+                "picture": "/images/products/uniview/basic-1.png"
+            }
+        ],
+        "audio": [],
+        "full-color": []
+    },
+    "proview": {
+        "logo": "/images/products/proview.png",
+        "basic": [
+            {
+                "id": 1,
+                "name": "Proview 2 Channel Basic",
+                "price": 2799000,
+                "picture": "/images/products/proview/basic-1.png"
+            }
+        ],
+        "audio": [],
+        "full-color": []
+    }
 }
