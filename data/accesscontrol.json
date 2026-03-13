@@ -4,17 +4,17 @@
     "products": [
       {
         "id": 1,
-        "name": "DS-KIT8003MF",
+        "name": "DS-K1T341CMF",
         "desc": "Value Series Fingerprint Time Attendance Terminal",
         "price": 718000,
-        "picture": "/images/accesscontrol/hikvision/kit8003.jpg"
+        "picture": "/images/accesscontrol/hikvision/DS-K1T341CMF.png"
       },
       {
         "id": 2,
-        "name": "DS-KIT804AEF",
+        "name": "DS-K1T343MX",
         "desc": "Pro Series Fingerprint Terminal",
         "price": 858000,
-        "picture": "/images/accesscontrol/hikvision/kit804aef.jpg"
+        "picture": "/images/accesscontrol/hikvision/DS-K1T343MX.png"
       }
     ]
   },
