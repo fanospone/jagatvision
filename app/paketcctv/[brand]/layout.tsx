@@ -24,7 +24,9 @@ export default async function BrandLayout({
     notFound()
   }
 
-  const categories = Object.keys(brandData)
+  const categories = Object.keys(brandData).filter(
+  (key) => key !== "logo"
+)
 
   return (
   <div className="max-w-7xl mx-auto px-6 py-16">

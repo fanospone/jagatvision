@@ -1,0 +1,39 @@
+{
+  "hikvision": {
+    "logo": "/images/products/hikvision.png",
+    "products": [
+      {
+        "id": 1,
+        "name": "DS-KIT8003MF",
+        "desc": "Value Series Fingerprint Time Attendance Terminal",
+        "price": 718000,
+        "picture": "/images/accesscontrol/hikvision/kit8003.jpg"
+      },
+      {
+        "id": 2,
+        "name": "DS-KIT804AEF",
+        "desc": "Pro Series Fingerprint Terminal",
+        "price": 858000,
+        "picture": "/images/accesscontrol/hikvision/kit804aef.jpg"
+      }
+    ]
+  },
+
+  "zkteco": {
+    "logo": "/images/products/zkteco.png",
+    "products": [
+      {
+        "id": 1,
+        "name": "MB20",
+        "desc": "Face Recognition Terminal",
+        "price": 2150000,
+        "picture": "/images/accesscontrol/zkteco/mb20.jpg"
+      }
+    ]
+  },
+
+  "ezviz": {
+    "logo": "/images/products/ezviz.png",
+    "products": []
+  }
+}
